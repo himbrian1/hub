@@ -1473,36 +1473,6 @@ replay('This Group has been *unbanned* from using me!')
   }
   break
 
-
-
-
-case 'botgrups':
-case 'botgroups':
-case 'botgrup':
-case 'botgroup':
-if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-reply(` Don't forget to join yeah!
-
-*GROUP 1*
-https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS
-
-*GROUP 2*
-https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5
-
-*GROUP 3*
-https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd`)
-break
-case 'getsxvdxcmd': {
-if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-Miku.sendMessage(from, {sticker:{url:"https://ZackMiku.github.io/media/menu.webp"}}, {quoted:m})
-Miku.sendMessage(from, {sticker:{url:"https://ZackMiku.github.io/media/groupopen.webp"}}, {quoted:m})
-Miku.sendMessage(from, {sticker:{url:"https://ZackMiku.github.io/media/groupclose.webp"}}, {quoted:m})
-}
-break
-
-
 case 'support': case 'supportgc':
     
     reply(`*My developer's group:* http://gg.gg/MikuSupport`)
