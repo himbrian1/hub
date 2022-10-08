@@ -3281,7 +3281,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  const YT=require('./lib/ytdlcore')
- //const { isUrl, fetchBuffer } = require('./lib/Function')
+ const { isUrl, fetchBuffer } = require('./lib/Function')
 
  if(!text) return Miku.sendMessage(from,{text:"Pls enter song name to play!"},{quoted:m})
  let yts = require("yt-search")
