@@ -3287,8 +3287,6 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  let yts = require("yt-search")
  let search = await yts(text)
  let anu = search.videos[0]
- let ytvc = await hx.youtube(anu.url)
- const ytvidff = anu
  let buttons = [
  {buttonId: `-ytad ${text}`, buttonText: {displayText: '♫ Audio'}, type: 1},
  {buttonId: `-ytvd ${text}`, buttonText: {displayText: '► Video'}, type: 1}
@@ -3351,8 +3349,6 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  let yts = require("yt-search")
  let search = await yts(text)
  let anu = search.videos[0]
- let ytvc = await hx.youtube(anu.url)
- const ytvidff = anu
  let buttons = [
  {buttonId: `-ytad2 ${text}`, buttonText: {displayText: '♫ Audio'}, type: 1},
  {buttonId: `-ytvd2 ${text}`, buttonText: {displayText: '► Video'}, type: 1}
