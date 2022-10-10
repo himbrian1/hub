@@ -158,7 +158,10 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 
 ## ✧ Contribution:
-- I don't have any contributor in this project. Feel free to contribute.
+- Project [Contributors](https://github.com/FantoX001/Miku-MD/graphs/contributors)
+- There are many more contributors in this project.
+- Please feel free to contribute in this project. I will merge your respected contribute if i see it's really necessary.
+
 
 
 
