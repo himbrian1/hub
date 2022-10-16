@@ -26,10 +26,32 @@
 </br> 
    
 #### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 2 days because i am continuously debugging it and making major changes in it.
-</br>
+</br></br>
   
+  
+## ✧✧✧ Recent Patch notes
+<details open>
+<summary>Read recent Patch notes of Miku</summary>
+<br>
+
+```
+✧ Fixed "Play" and related commands.
+✧ Added Ytdl-Core.
+✧ Added "add" command [Usage: -add 91 810xxxxxxx  where, 91 is country code and other part in number.]
+✧ Added "say" command using Text-to-speech [Usage: -say Hello everyone]
+✧ Bot can delete other people's messages now. [Condition: Both bot and user must be admin!]
+✧ Fixed -hentaivideo command.
+✧ Disabled Dm autoreply.
+✧ More fixes soon...[Contact me via Telegram or WhatsApp for report or issues].
+
+```
+
+</details>
 
 ## ✧✧✧ Why use Miku as your Base?
+<details open>
+<summary>Highlights of Miku MD</summary>
+<br>
 
 ```
 1. Copyright Free.
@@ -47,6 +69,8 @@
 
 -regards FantoX001
 ```
+
+</details>
 </br>
 
 ## ✧✧✧ Video tutorial for Heroku Deploy:
