@@ -3322,6 +3322,9 @@ case 'music': case 'play': case 'song': case 'ytplay': {
     let search = await yts(text)
     let anu = search.videos[0]
     const ytmp3play = await YT.mp3(anu.url)
+    let stats = fs.statSync(ytmp3play.path)
+    let fileSizeInBytes = stats.size;
+    if (fileSizeInBytes > 60000000) return reply('Cant send audios longer than 60 MB!')
     
  await Miku.sendMessage(from, {document: fs.readFileSync(ytmp3play.path),fileName: anu.title + '.mp3',mimetype: 'audio/mpeg',}, {quoted:m})
  }
@@ -3335,6 +3338,8 @@ case 'music': case 'play': case 'song': case 'ytplay': {
     let search = await yts(text)
     let anu = search.videos[0]
     const ytmp4play = await YT.mp4(anu.url)
+    let vidduration =ytmp4play.duration;
+    if (vidduration > 1800) return reply('Cant send videos longer than *30 min*')
  Miku.sendMessage(from, {video:{url:ytmp4play.videoUrl}, mimetype:"video/mp4", caption:anu.title+' By *Miku MD*',}, {quoted:m})
  }
  break
@@ -3382,6 +3387,9 @@ case 'music': case 'play': case 'song': case 'ytplay': {
     if (isBanChat) return reply(mess.bangc)
     const YT=require('./lib/ytdlcore')
     const ytmp3play2 = await YT.mp3(text)
+    let stats = fs.statSync(ytmp3play2.path)
+    let fileSizeInBytes = stats.size;
+    if (fileSizeInBytes > 60000000) return reply('Cant send audios longer than 60 MB!')
     
  await Miku.sendMessage(from, {document: fs.readFileSync(ytmp3play2.path),fileName:'Miku_YTmp3_Downloader.mp3',mimetype: 'audio/mpeg',}, {quoted:m})
  }
@@ -3392,6 +3400,8 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  if (isBanChat) return reply(mess.bangc)
  const YT=require('./lib/ytdlcore')
     const ytmp4play2 = await YT.mp4(text)
+    let vidduration =ytmp4play2.duration;
+    if (vidduration > 1800) return reply('Cant send videos longer than *30 min*')
  Miku.sendMessage(from, {video:{url:ytmp4play2.videoUrl}, mimetype:"video/mp4", caption:'Downloaded by *Miku MD*',}, {quoted:m})
  }
  break
