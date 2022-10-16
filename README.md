@@ -35,6 +35,7 @@
 <br>
 
 ```
+✧ Added pm2 worker.
 ✧ Fixed "Play" and related commands.
 ✧ Added Ytdl-Core.
 ✧ Added "add" command [Usage: -add 91 810xxxxxxx  where, 91 is country code and other part in number.]
