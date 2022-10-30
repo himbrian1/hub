@@ -82,7 +82,7 @@ Here's the Video Tuturial for Deploying and Hosting Miku Bot on Heroku.
 
 ## ✧✧✧ Heroku Deployment Method:
 
-#### ✧ `Fork` this repo.
+#### ✧ [Fork](https://github.com/FantoX001/Miku-MD/fork) this repo.
 
 #### ✧ Click this scan button below and scan the given QR within 15 seconds from your WhatsApp. 
 <a href="https://miku-qr--fantox001.repl.co/"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="90" />
@@ -91,7 +91,7 @@ Here's the Video Tuturial for Deploying and Hosting Miku Bot on Heroku.
 
 #### <a href="https://replit.com/@FantoX001/Miku-QR?v=1"><img src="https://i.ibb.co/pPQjJL2/replit-logo-png-transparent.png" alt="replit-logo-png-transparent" border="0"  width="120"></a>
 #### ✧ Download the `session.json` file and upload it on the hompage of your `Fork`.
-#### ✧ Go to your `Heroku` account.
+#### ✧ Go to your [Heroku](https://www.heroku.com/) account.
 #### ✧ Create a `random app` in Heroku with any name.
 #### ✧ Connect your `GitHub` with `Heroku`
 #### ✧ Then connect `Miku's repo` from your GitHub.
