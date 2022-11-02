@@ -29,6 +29,15 @@
 </br></br>
   
   
+## ✧✧ Setup before deploy (Optional):
+Go to `config.js`
+-  To change the `Owner Number`, go to line no `10`, `11` and `12` [ Note there 91 is my country code don't put + or spaces there ]
+-  Change `Bot Prefix` in line no `23` inside global.prefa. [ Put anything you want except @ ] 
+-  Change `Owner Name` in line no `16`
+-  Change `Sticker packname` and `author` in line no `14` and `15`
+<br>
+<br>
+  
 ## ✧✧✧ Recent Patch notes
 <details open>
 <summary>Read recent Patch notes of Miku</summary>
