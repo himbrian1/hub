@@ -30,11 +30,20 @@
   
   
 ## ✧✧ Setup before deploy (Optional):
-Go to `config.js`
+### Go to `config.js`
 -  To change the `Owner Number`, go to line no `10`, `11` and `12` [ Note there 91 is my country code don't put + or spaces there ]
 -  Change `Bot Prefix` in line no `23` inside global.prefa. [ Put anything you want except @ ] 
 -  Change `Owner Name` in line no `16`
 -  Change `Sticker packname` and `author` in line no `14` and `15`
+<br>
+<br>
+
+## ✧✧✧ Vulnerability Report 
+- In a recent vulnerability test I fount that this bot ontains a major Vulnerability which can let `your WhatsApp accout be accessed by the Hacker`. Actually every 3rd party things contains some hidden vulnerability but here i am sharing that vulnerability with you as an warning. Which is `only effective of you use repl.it scanner`. [ It will be fixed soon so don't worry. ]
+
+- It can be avoided by installing bot in `Termux`, `VS code` etc. physical deploy methods.
+- Stay safe and stay updated.
+
 <br>
 <br>
   
