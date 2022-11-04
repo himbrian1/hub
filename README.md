@@ -39,7 +39,7 @@
 <br>
 
 ## ✧✧✧ Vulnerability Report 
-- In a recent vulnerability test I fount that this bot ontains a major Vulnerability which can let `your WhatsApp accout be accessed by the Hacker`. Actually every 3rd party things contains some hidden vulnerability but here i am sharing that vulnerability with you as an warning. Which is `only effective if you use repl.it scanner`. [ It will be fixed soon so don't worry. ]
+- In a recent vulnerability test I fount that this bot contains a major vulnerability which can let `your WhatsApp accout be accessed by the Hacker`. Actually every 3rd party things contains some hidden vulnerability but here i am sharing that vulnerability with you as an warning. Which is `only effective if you use repl.it scanner`. [ It will be fixed soon so don't worry. ]
 
 - It can be avoided by installing bot in `Termux`, `VS code` etc. physical deploy methods or using other session generators.
 - I made this bot as an open source project but as it's dev I don't want user's account to be hacked. So I am working to fix it as soon as possible.
