@@ -49,7 +49,7 @@
 
 ### ✧✧ Update Report (06/11/2022 -  3:18 IST)
 - Vulnerability has been `fixed` by me so no worries.
-- This bot doesn't contaims any security related vulnerabilities anymore. 
+- This bot doesn't contains any security related vulnerabilities anymore. 
 
 
 <br>
