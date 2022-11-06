@@ -38,12 +38,19 @@
 <br>
 <br>
 
-## ✧✧✧ Vulnerability Report 
-- In a recent vulnerability test I fount that this bot contains a major vulnerability which can let `your WhatsApp accout be accessed by the Hacker`. Actually every 3rd party things contains some hidden vulnerability but here i am sharing that vulnerability with you as an warning. Which is `only effective if you use repl.it scanner`. [ It will be fixed soon so don't worry. ]
+## ✧✧✧ Vulnerability Report (✔️ Fixed on 06/11/2022 -  3:18 pm IST)
+- In a recent vulnerability test `( On 04/11/22 - 9:10 am IST )` I found that this bot contains a major vulnerability which can let `your WhatsApp accout be accessed by the Attacker`. Actually every 3rd party things contains some hidden vulnerability but here I am sharing that vulnerability with you as an warning. Which is `only effective if you use repl.it scanner`. [ It will be fixed soon so don't worry. ]
 
 - It can be avoided by installing bot in `Termux`, `VS code` etc. physical deploy methods or using other session generators.
 - I made this bot as an open source project but as it's dev I don't want user's account to be hacked. So I am working to fix it as soon as possible.
 - Stay safe and stay updated.
+
+<br>
+
+### ✧✧ Update Report (06/11/2022 -  3:18 IST)
+- Vulnerability has been `fixed` by me so no worries.
+- This bot doesn't contaims any security related vulnerabilities anymore. 
+
 
 <br>
 <br>
@@ -54,6 +61,8 @@
 <br>
 
 ```
+✧ Fixed a critical security related vulnerability.
+✧ Added single config prefix changing facility.
 ✧ Added pm2 worker.
 ✧ Fixed "Play" and related commands.
 ✧ Added Ytdl-Core.
