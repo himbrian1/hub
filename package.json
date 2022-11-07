@@ -85,16 +85,7 @@
   "yt-search": "^2.10.2",
   "ytdl-core": "^4.11.0",
   "ytsearch": "^1.0.4",
-  "@shineiichijo/mal-news-scraper": "^0.0.2",
-  "better-sqlite3": "^7.6.2",
-  "currency-system": "^2.7.1",
-  "discord-xp": "^1.1.16",
-  "genius-lyrics": "^4.3.8",
-  "hmtai": "^3.2.1",
-  "mal-scraper": "^2.11.4",
-  "parse-ms": "^2.1.0",
-  "quick.db": "^9.0.6",
-  "supervisor": "^0.12.0"
+  "@shineiichijo/mal-news-scraper": "^0.0.2"
  },
  "directories": {
   "lib": "lib",
