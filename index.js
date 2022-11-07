@@ -253,8 +253,11 @@ I hope you will come back soon, but we are not going to miss you though!
     }
 	
     Miku.public = true
+	
+    Miku.ev.on('creds.update', saveState)
 
     Miku.serializeM = (m) => smsg(Miku, m, store)
+	
 
     Miku.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect } = update	    
@@ -272,7 +275,7 @@ I hope you will come back soon, but we are not going to miss you though!
         //console.log('Connected...', update)
     })
 
-    Miku.ev.on('creds.update', saveState)	
+    	
 	
 	
    
