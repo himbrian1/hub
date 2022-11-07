@@ -5,6 +5,7 @@ const pino = require('pino')
 const fs = require('fs')
 const chalk = require('chalk')
 const FileType = require('file-type')
+const { Boom } = require("@hapi/boom")
 const path = require('path')
 const CFonts = require('cfonts');
 const { exec, spawn, execSync } = require("child_process")
@@ -258,7 +259,7 @@ I hope you will come back soon, but we are not going to miss you though!
     Miku.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect } = update	    
         if (connection === 'close') {
-        let reason = lastDisconnect.error ? lastDisconnect?.error?.output.statusCode : 0;
+        let reason = new Boom(lastDisconnect?.error)?.output.statusCode
             if (reason === DisconnectReason.badSession) { console.log(`Bad Session File, Please Delete Session and Scan Again`); process.exit(); }
             else if (reason === DisconnectReason.connectionClosed) { console.log("Connection closed, reconnecting...."); startMiku(); }
             else if (reason === DisconnectReason.connectionLost) { console.log("Connection Lost from Server, reconnecting..."); startMiku(); }
@@ -271,9 +272,9 @@ I hope you will come back soon, but we are not going to miss you though!
         //console.log('Connected...', update)
     })
 
-    Miku.ev.on('creds.update', saveState)
-
-
+    Miku.ev.on('creds.update', saveState)	
+	
+	
    
     /** Send Button 5 Images
      *
