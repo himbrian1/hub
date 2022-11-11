@@ -1383,10 +1383,10 @@ return list[Math.floor(list.length * Math.random())]
     if( smallinput.includes('konichiwa') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
       reply (`Konichiwa *${pushname}*, I am *${BotName}*. How can i help you?`);
     }
-    
+   /*
     if (smallinput.includes('bot')) {
       reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot made by *Fantox* and currently being hosted by *${OwnerName}*`);
-    }
+    }*/
 
     if (smallinput.includes('good morning') || smallinput.includes('ohayo')) {
       reply (`Good morning to you too *${pushname}* ☺️. Have a great day 😇.`);
