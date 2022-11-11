@@ -1374,7 +1374,7 @@ return list[Math.floor(list.length * Math.random())]
 }
 
 //Some special chat replies
-	
+/*	
    let smallinput = budy.toLowerCase()
     if (smallinput.includes('hello')) {
       reply (`Hello *${pushname}*, I am *${BotName}*. How can i help you?`);
@@ -1399,7 +1399,7 @@ return list[Math.floor(list.length * Math.random())]
     if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('thank')) {
       reply (`Mention not *${pushname}* 😇. I am a bot afterall.`);
     }
-
+*/
            
 
 switch(command) {
