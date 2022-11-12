@@ -61,6 +61,7 @@
 <br>
 
 ```
+✧ Fixed Heroku account ban issue.
 ✧ Added Weather command. [Usage: -weather Kolkata]
 ✧ Fixed a critical security related vulnerability.
 ✧ Added single config prefix changing facility.
