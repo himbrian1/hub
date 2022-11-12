@@ -25,7 +25,7 @@
       
 </br> 
    
-## ✧✧ Temporarily not Maintained anymore. Thank You so much guys for your love and support 💕. 
+## ✧✧ Temporarily little bit Maintained for bug fixes. Thank You so much guys for your love and support 💕. 
 </br></br>
   
   
