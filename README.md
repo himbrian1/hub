@@ -25,7 +25,7 @@
       
 </br> 
    
-## ✧✧ Maintained by [Fantox](https://github.com/FantoX001) and [Jayjay-ops](https://github.com/jayjay-ops) for bug fixes and more improments. More features  are coming soon. Check this main repo once in week to stay updated about latest updates.
+## ✧✧ Maintained by [Fantox](https://github.com/FantoX001) for bug fixes and more improments. More features  are coming soon. Check this main repo once in week to stay updated about latest updates.
 </br></br>
   
   
