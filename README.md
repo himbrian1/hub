@@ -21,6 +21,16 @@
 <a href="https://github.com/FantoX001">
     <img src="(https://visitor-badge.glitch.me/badge?page_id=https://github.com/FantoX001/Shikimori-MD.visitor-badge&left_text=Total%20Repo%20Visitors)">
   </a>
+  
+  <p align="center">
+  <a href="https://github.com/FantoX001/Miku-MD">
+    <img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/FantoX001/Miku-MD.visitor-badge&left_text=Total%20Repo%20Visits">
+    
+    
+<a href="https://github.com/FantoX001">
+    <img src="(https://visitor-badge.glitch.me/badge?page_id=https://github.com/FantoX001/Shikimori-MD.visitor-badge&left_text=Total%20Repo%20Visitors)">
+  </a>
+  
 </br>
       
 </br> 
