@@ -1,8 +1,6 @@
-<p align="center">
-   <a href="https://github.com/FantoX001">
-    <img src="https://c.tenor.com/NJVFjOYEcsIAAAAC/miku-gotoubun.gif" width="610">
+ https://user-images.githubusercontent.com/96835724/202911067-fbebff62-1566-4120-bd37-08311166b70b.mp4 
+
      
-</p>
 <h1 align="center"> Miku Nakano (Beta)
 </h1>
 <p align="center"> 
