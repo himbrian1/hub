@@ -43,6 +43,7 @@
 -  Change `Bot Prefix` in line no `23` inside global.prefa. [ Put anything you want except @ ] 
 -  Change `Owner Name` in line no `16`
 -  Change `Sticker packname` and `author` in line no `14` and `15`
+-  Using Android ?    [Click to Fork Repo](https://github.com/FantoX001/Miku-MD/fork)
 <br>
 <br>
 
