@@ -70,6 +70,7 @@
 <br>
 
 ```
+✧ Added new NSFW commands and fixed old non-working ones type -nsfw to to enable it and -nsfwmenu to get full NSFW command list.
 ✧ Added Forever worker again and removed pm2.
 ✧ Fixed Heroku account ban issue.
 ✧ Added Weather command. [Usage: -weather Kolkata]
