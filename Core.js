@@ -1523,7 +1523,7 @@ case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!AntiNsfw) return reply(mess.nonsfw)
-        reply(` *━━━〈  📛 NSFW Menu 📛  〉━━━*\n\nhentaivideo, blowjobgif, hneko, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, blowjob, cuckold, ero, gasm, cum, femdom, foot, gangbang, glasses, jahy, trap, blowjobgif, spank, hneko, hwaifu, gasm`)
+        reply(` *━━━〈  📛 NSFW Menu 📛  〉━━━*\n\nahegao, ass, bdsm, cuckold, cum, ero, femdom, gangbang, foot, glasses, hentai, masturbation, orgy, panties, pussy, tentacles, things, yuri ,nsfwloli, blowjobgif, hentaivideo, trap, hneko, hwaifu`)
     break
 
 case 'reaction': case 'react': case 'reactions': case 'r':
@@ -3845,62 +3845,62 @@ case 'truth':
                            Miku.sendMessage(from, { image: buffer, caption: '*You have chosen Truth*\n'+ mikutruthww }, {quoted:m})
                            break
 
+ /////////NSFW comm/////////////////                          
 
+//let bjif = await GIFBufferToVideoBuffer(bjf) 
 
-case 'nsfwmiku':
-    if (isBan) return reply(mess.banned)
-    if (isBanChat) return reply(mess.bangc)
-reply(mess.wait)
-nye = `http://api.lolhuman.xyz/api/gimage?apikey=${lolkey}&query=${command}`
-Miku.sendMessage(from, {image:{url:nye}, caption:"Master..."}, {quoted:m})
-break
-
-case 'mediafire': case 'mediafiredl': {
-	if (isBan) return reply(mess.banned)
-    if (isBanChat) return reply(mess.bangc)
-if (!text) return reply(mess.linkm)
-if (!isUrl(args[0]) && !args[0].includes('mediafire.com')) return reply(`The link you provided is invalid`)
-const baby1 = await mediafireDl(text)
-if (baby1[0].size.split('MB')[0] >= 999) return reply('*File Over Limit* '+util.format(baby1))
-const result4 = `「  *Mediafire Downloader*  」
-				
-*Name* : ${baby1[0].nama}
-*Size* : ${baby1[0].size}
-*Mime* : ${baby1[0].mime}
-*Link* : ${baby1[0].link}`
-reply(`${result4}`)
-Miku.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime }, { quoted : m }).catch ((err) => reply(mess.error))
-}
-break
-
-case 'masturbation': case 'jahy': case 'hentai': case 'glasses': case 'gangbang': case 'foot': 
-case 'femdom': case 'cum': case 'ero': case 'cuckold': case 'blowjob': case 'bdsm': 
-case 'ahegao': case 'ass': case 'orgy': case 'panties': case 'pussy': case 'thighs': case 'yuri': case 'tentacles':
-if (isBan) return reply(mess.banned)	 			
-if (isBanChat) return reply(mess.bangc)
-if (!m.isGroup) return replay(mess.grouponly)
-if (!AntiNsfw) return reply(mess.nonsfw)
-try{
-reply(mess.waiting)
-NoHorny = await fetchJson(`https://myselfff.herokuapp.com/docs/nsfw/${command}`)
-YesHorny = await getBuffer(NoHorny.result)
-Miku.sendMessage(from, {image:YesHorny},{quoted:m})
-} catch (e) {error("Error")}	
-break
-
-case 'spank':
+case 'nsfwloli' :  {
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!m.isGroup) return replay(mess.grouponly)
     if (!AntiNsfw) return reply(mess.nonsfw)
+    
 reply(mess.waiting)
-spankd = await axios.get(`https://nekos.life/api/v2/img/spank`)                                   
-  let spbuff = await getBuffer(spankd.data.url)
-let spgif = await GIFBufferToVideoBuffer(spbuff)   
-        await Miku.sendMessage(m.chat,{video: spgif, gifPlayback:true},{ quoted:m }).catch(err => {
-                    return reply('Error!')
-                                    })
+ waifudhgd = await getBuffer(`https://api-reysekha.herokuapp.com/api/wallpaper/${command}?apikey=APIKEY  `)     
+ let nsfwapireply = [
+    {buttonId: `${prefix}${command}`, buttonText: {displayText: `>>`}, type: 1},
+    ]
+  let nsfwapimess = {
+   image: waifudhgd,
+   caption:  `Here it is...`,
+  buttons: nsfwapireply,
+  headerType: 1
+  }     
+            await Miku.sendMessage(m.chat, nsfwapimess, { quoted:m }).catch(err => {
+                    return('Error!')
+                })
+            }
 break
+
+
+case 'ahegao' : case 'ass' : case 'bdsm' :  case 'cuckold' :  case 'cum' : case 'ero' :
+    case 'femdom' : case 'gangbang' : case 'foot' : case 'glasses':  case 'hentai': 
+     case 'masturbation': case 'neko': case 'orgy': case 'panties': 
+    case 'pussy': case 'tentacles': case 'things': case 'yuri': 
+{
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+    if (!m.isGroup) return replay(mess.grouponly)
+    if (!AntiNsfw) return reply(mess.nonsfw)
+    
+    reply(mess.waiting)
+     waifudhgd = await getBuffer(`https://api-reysekha.herokuapp.com/api/nsfw/${command}?apikey=APIKEY`)     
+     let nsfwapireply = [
+        {buttonId: `${prefix}${command}`, buttonText: {displayText: `>>`}, type: 1},
+        ]
+      let nsfwapimess = {
+       image: waifudhgd,
+       caption:  `Here it is...`,
+      buttons: nsfwapireply,
+      headerType: 1
+      }     
+                await Miku.sendMessage(m.chat, nsfwapimess, { quoted:m }).catch(err => {
+                        return('Error!')
+                    })
+                }
+    break
+
+
 
 case 'blowjobgif': case 'bj' :
     if (isBan) return reply(mess.banned)	 			
@@ -3993,28 +3993,8 @@ reply(mess.waiting)
                 })
 break
 
-case 'gasm':
-    if (isBan) return reply(mess.banned)	 			
-    if (isBanChat) return reply(mess.bangc)
-    if (!m.isGroup) return replay(mess.grouponly)
-    if (!AntiNsfw) return reply(mess.nonsfw)
-reply(mess.waiting)						
- waifudd = await axios.get(`https://nekos.life/api/v2/img/${command}`)
-                           var wbuttsss = [
-        {buttonId: `${prefix}gasm`, buttonText: {displayText: `>>`}, type: 1},
-        ]
-      let buttonsssMessages = {
-       image: {url:waifudd.data.url},
-       caption:  `Here it is...`,
-      footer: `${global.BotName}`,
-      buttons: wbuttsss,
-      headerType: 4
-      }     
-            await Miku.sendMessage(m.chat, buttonsssMessages,{ quoted:m }).catch(err => {
-                    return('Error!')
-                })
-break  
 
+/////////////////////////// NFFW end /////////////////////
 
 case 'smug2':
     if (isBan) return reply(mess.banned)	 			
