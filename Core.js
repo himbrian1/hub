@@ -4777,7 +4777,7 @@ Here's the list of my Commands.
 *╔* *━━━〈  🎆 Core 🎆  〉━━━* *╗*
 *║*
 *╠* Speak
-*╠* Leo-Bot
+*╠* Leo
 *╠* Stalk 
 *╠* Profile 
 *╠* Help 
@@ -4935,8 +4935,8 @@ Here's the list of my Commands.
 *╠* Tiktok 
 *╠* Tiktokaudio 
 *╠* Tiktoknowm 
-*╠* Mediafire   
-*╚**═**═**═**═**═**═**═**═**═**═**═**╝*
+*╠* Mediafire    
+*╚* *═* *═* *═* *═* *═* *═* *═* *═* *╝*
 
 *╔* *━━━〈  🈴 Weeb 🈴  〉━━━* *╗*
 *║*
@@ -4959,7 +4959,7 @@ Here's the list of my Commands.
 *╠* Animewallpaper2 
 *╠* Anime 
 *╠* Manga 
-*╚**═**═**═**═**═**═**═**═**╝*
+*╚* *═* *═* *═* *═* *═* *═* *═* *╝*
 
 *╔* *━━━〈  🗂️ Informative 🗂️  〉━━━* *╗* 
 *║*
@@ -4968,14 +4968,14 @@ Here's the list of my Commands.
 *╠* Covid 
 *╠* Earthquake 
 *╠* Wiki 
-*╚**═**═**═**═**═**═**═**═**═**═**═**╝*
+*╚* *═* *═* *═* *═* *═* *═* *═* *═* *═* *╝*
 
 *╔* *━━━〈  🎗 Others 🎗  〉━━━*  *╗* 
 *║*
 *╠* Stickermeme 
 *╠* Quotes 
 *╠* Darkjoke  
-*╚**═**═**═**═**═**═**═**═**═**╝*
+*╚* *═* *═* *═* *═* *═* *═* *═* *═* *╝*
 
 *╔* *━━━〈  🎉 Fun 🎉  〉━━━* *╗*
 *║* 
@@ -4996,7 +4996,7 @@ Here's the list of my Commands.
 *╠* Lovelycheck 
 *╠* Uglycheck 
 *╠* Charactercheck 
-*╚**═**═**═**═**═**═**═**═**═**╝*
+*╚* *═* *═* *═* *═* *═* *═* *═* *═* *╝*
 
 *╔* *━━━〈  🪁 Essentials 🪁  〉━━━* *╗* 
 *║*
@@ -5006,7 +5006,8 @@ Here's the list of my Commands.
 *╠* Fliptext 
 *╠* Toletter 
 *╠* Weather
-*╚**═**═**═**═**═**═**═**═**═**═**═**╝* 
+*╚* *═* *═* *═* *═* *═* *═* *═* *═* *═* *╝*
+
 *╔* *━━━〈  💥 NSFW 💥  〉━━━* *╗*
 
 🍁 Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
@@ -5069,7 +5070,7 @@ break
 
 
 
-case 'Leo-Bot':
+case 'Leo':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
