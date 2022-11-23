@@ -214,7 +214,7 @@ const isQuotedAudio = m.mtype === 'extendedTextMessage' && content.includes('aud
 const mongoose = require("mongoose");
 
 
-/*
+
 
 /////////// -  DM chatbot (Delete this part to turn off DM Chat Bot) - //////////////////
 
@@ -226,7 +226,7 @@ if (!isCmd && !m.isGroup){
 
 //////////////////////////////////////////////////////////////////////////////////////
 
-*/
+
 _sewa.expiredCheck(Miku, sewa)
 
 const reply = (teks) => {
@@ -1188,7 +1188,7 @@ let cron = require('node-cron')
                                 "h": `Miku`,
                                 'duration': '99999', 
                                 'gifPlayback': 'true', 
-                                'caption': `Fantox`,
+                                'caption': `𝕷𝕰𝕺`,
                                 'jpegThumbnail': fs.readFileSync('./Assets/miku.mp4')
                                        }
                                       }
@@ -1333,7 +1333,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
+    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: *𝕷𝕰𝕺* to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1363,7 +1363,7 @@ const ftroli = {
     
     Type *-menu* or press any button below to start using *${global.BotName}*
     
-    ©️ *${global.BotName}* All Rights Reserved by: *Fantox*
+    ©️ *${global.BotName}* All Rights Reserved by: *𝕷𝕰𝕺*
     `
         const qtod = m.quoted? "true":"false"
         
@@ -1385,7 +1385,7 @@ return list[Math.floor(list.length * Math.random())]
     }
    
     if (smallinput=='bot') {
-      reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot made by *Fantox* and currently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
+      reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot made by *𝕷𝕰𝕺* and currently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
     }
 
     if (smallinput=='lol') {
@@ -1516,20 +1516,75 @@ case 'support': case 'supportgc':
 
 case 'repo': case 'botrepo':
     
-    reply(`*My Source Code:* https://github.com/FantoX001/Miku-MD`)
+    reply(`*My Source Code:* https://github.com/leoooxx/Miku-MD`)
     break
 
 case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!AntiNsfw) return reply(mess.nonsfw)
-        reply(` *━━━〈  📛 NSFW Menu 📛  〉━━━*\n\nahegao, ass, bdsm, cuckold, cum, ero, femdom, gangbang, foot, glasses, hentai, masturbation, orgy, panties, pussy, tentacles, things, yuri ,nsfwloli, blowjobgif, hentaivideo, trap, hneko, hwaifu`)
+        reply(`
+         *╔* *━━━━━〈  📛 NSFW Menu 📛  〉━━━━━*
+         *╠* hegao 
+         *╠* Ass
+         *╠* BDSM
+         *╠* Cuckold
+         *╠* Cum
+         *╠* Ero
+         *╠* Femdom
+         *╠* Gangbang
+         *╠* Foot
+         *╠* Glasses
+         *╠* Hentai
+         *╠* Masturbation
+         *╠* Orgy
+         *╠* Panties
+         *╠* Pussy 
+         *╠* Tentacles
+         *╠* Thighs
+         *╠* Yuri 
+         *╠* Nsfwloli
+         *╠* Blowjobgif
+         *╠* Hentaivideo
+         *╠* Trap
+         *╠* Hneko
+         *╠* Hwaifu
+         *╚**═**═**═**═**═**═**═**═**═**═**═**═**═**═**═**═**═**═**═*
+         `)
     break
 
 case 'reaction': case 'react': case 'reactions': case 'r':
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-            reply(` *━━━〈  📍 Reactions 📍  〉━━━*\n\nbonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe`)
+            reply(` 
+            *╔* *━━━〈  📍 Reactions 📍  〉━━━*
+            *╠* Bonk
+            *╠* Cry
+            *╠* Bully
+            *╠* Cuddle
+            *╠* Hug
+            *╠* Kiss
+            *╠* Lick
+            *╠* Pat
+            *╠* Smug
+            *╠* Yeet
+            *╠* Blush
+            *╠* Smile
+            *╠* Wave
+            *╠* Highfive
+            *╠* Handhold
+            *╠* Nom
+            *╠* Glomp
+            *╠* Bite
+            *╠* Slap
+            *╠* Kill
+            *╠* Happy
+            *╠* Wink
+            *╠* Poke
+            *╠* Dance
+            *╠* Cringe
+            *╚**═**═**═**═**═**═**═**═**═**═**═**═**═**═**═**═**═**═**═**╝*
+            `)
         break   
     
 
@@ -1725,7 +1780,7 @@ sections
 }
 break
 
-/*
+
 case 'animesearchxxx': case 'anime':{
     await fetchJson(`https://api.jikan.moe/v4/anime/${q}`)
     .then((res) => {
@@ -1734,7 +1789,7 @@ case 'animesearchxxx': case 'anime':{
     })
     }
     break
-*/
+
 
 case 'coffee': case 'kopi': {
         if (isBan) return reply(mess.banned)	 			
@@ -2687,7 +2742,7 @@ let mentioned = participants.map(v => v.jid)
      }).then(async(res) => {
      sizny = res.content[0].attrs.size
      if (sizny < 20) {
-     teks = `Sorry, munimun 20 members are required in a group to add bot!`
+     teks = `Sorry, minimum 20 members are required in a group to add bot!`
      sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./Assets/pic7.jpg'), `${global.packname}`, `${global.BotName}`, "916909137213@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
      } else if (sizny > 20) {
      await Miku.groupAcceptInvite(vcc).then(async(res) => replay(jsonformat(res))).catch(_ => _)
@@ -2821,7 +2876,7 @@ case 'public': {
  if (isBanChat) return reply(mess.bangc)
  if (!isCreator) return reply(mess.botowner)
  Miku.public = false
- reply('Only Owner can use me now!')
+ reply('Only 𝕷𝕰𝕺 can use me now!')
  Miku.setStatus(`Mode : Self`)
  }
  break
@@ -3330,7 +3385,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  _Miku Youtube Player 2.0_  」
+ caption: `「  _𝕃𝔼𝕆-𝔹𝕆𝕋 𝟙.𝟘 Youtube Player 2.0_  」
 
 *Title :* ${anu.title}
 
@@ -3357,9 +3412,6 @@ case 'music': case 'play': case 'song': case 'ytplay': {
     let anu = search.videos[0]
     const ytmp3play = await YT.mp3(anu.url)
     let stats = fs.statSync(ytmp3play.path)
-    let fileSizeInBytes = stats.size;
-    if (fileSizeInBytes > 60000000) return reply('Cant send audios longer than 60 MB!')
-    
  await Miku.sendMessage(from, {document: fs.readFileSync(ytmp3play.path),fileName: anu.title + '.mp3',mimetype: 'audio/mpeg',}, {quoted:m})
  }
  break
@@ -3372,8 +3424,6 @@ case 'music': case 'play': case 'song': case 'ytplay': {
     let search = await yts(text)
     let anu = search.videos[0]
     const ytmp4play = await YT.mp4(anu.url)
-    let vidduration =ytmp4play.duration;
-    if (vidduration > 1800) return reply('Cant send videos longer than *30 min*')
  Miku.sendMessage(from, {video:{url:ytmp4play.videoUrl}, mimetype:"video/mp4", caption:anu.title+' By *Miku MD*',}, {quoted:m})
  }
  break
@@ -3397,7 +3447,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  _Miku Youtube Downloader 2.0_  」
+ caption: `「  *_𝕃𝔼𝕆-𝔹𝕆𝕋 𝟙.𝟘Youtube Downloader_*  」
 
 *Title :* ${anu.title}
 
@@ -3422,10 +3472,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
     const YT=require('./lib/ytdlcore')
     const ytmp3play2 = await YT.mp3(text)
     let stats = fs.statSync(ytmp3play2.path)
-    let fileSizeInBytes = stats.size;
-    if (fileSizeInBytes > 60000000) return reply('Cant send audios longer than 60 MB!')
-    
- await Miku.sendMessage(from, {document: fs.readFileSync(ytmp3play2.path),fileName:'Miku_YTmp3_Downloader.mp3',mimetype: 'audio/mpeg',}, {quoted:m})
+ await Miku.sendMessage(from, {document: fs.readFileSync(ytmp3play2.path),fileName:'𝕃𝔼𝕆-𝔹𝕆𝕋 𝟙.𝟘_YTmp3_Downloader.mp3',mimetype: 'audio/mpeg',}, {quoted:m})
  }
  break
 
@@ -3434,9 +3481,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
  if (isBanChat) return reply(mess.bangc)
  const YT=require('./lib/ytdlcore')
     const ytmp4play2 = await YT.mp4(text)
-    let vidduration =ytmp4play2.duration;
-    if (vidduration > 1800) return reply('Cant send videos longer than *30 min*')
- Miku.sendMessage(from, {video:{url:ytmp4play2.videoUrl}, mimetype:"video/mp4", caption:'Downloaded by *Miku MD*',}, {quoted:m})
+ Miku.sendMessage(from, {video:{url:ytmp4play2.videoUrl}, mimetype:"video/mp4", caption:'Downloaded by *𝕃𝔼𝕆-𝔹𝕆𝕋 𝟙.𝟘*',}, {quoted:m})
  }
  break
 
@@ -3486,7 +3531,7 @@ case 'pinterest': case 'pin': {
 case 'swm': case 'take': case 'stickerwm': case 'steal':{
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
-if (!args.join(" ")) return reply(`Use command: -steal Miku|By: Fantox`)
+if (!args.join(" ")) return reply(`Use command: -steal Miku|By:𝕷𝕰𝕺`)
 const swn = args.join(" ")
 const pcknm = swn.split("|")[0];
 const atnm = swn.split("|")[1];
@@ -3535,7 +3580,7 @@ case 'sgif': case 'sticker': case 's': {
  let encmedia = await Miku.sendImageAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
  await fs.unlinkSync(encmedia)
  } else if (/video/.test(mime)) {
- if ((quoted.msg || quoted).seconds > 11) return reply('Maximum 10 seconds!')
+ if ((quoted.msg || quoted).seconds > 15) return reply('Maximum 16 seconds!')
  let media = await quoted.download()
  let encmedia = await Miku.sendVideoAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
  await fs.unlinkSync(encmedia)
@@ -3613,7 +3658,7 @@ break
 case 'handsomecheck':
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Fantox`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @𝕷𝕰𝕺`)
 					const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 Miku.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
@@ -3621,7 +3666,7 @@ Miku.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*
 case 'beautifulcheck':
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Fantox`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @𝕷𝕰𝕺`)
 					const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 Miku.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
@@ -3638,7 +3683,7 @@ case 'awesomecheck':
                       case 'uglycheck':
                         if (isBan) return reply(mess.banned)
                         if (isBanChat) return reply(mess.bangc)
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Fantox`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @𝕷𝕰𝕺`)
 					const sangeh = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
 Miku.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
@@ -3648,7 +3693,7 @@ Miku.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%
 case 'charactercheck':
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
-					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Fantox`)
+					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @𝕷𝕰𝕺`)
 					const Mikutttt =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const taky = Mikutttt[Math.floor(Math.random() * Mikutttt.length)]
 					Miku.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
@@ -3728,7 +3773,7 @@ case 'charactercheck':
          "shout you bastard in front of your mom/papa",
          "change the name to i am idiot for 24 hours",
          "slap urself firmly and send the sound of slap through voice note😂",
-         "say i love the bot owner Fantox through voice note",
+         "say i love the bot owner 𝕷𝕰𝕺 through voice note",
          "send your gf/bf pic here",
          "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
          "breakup with your best friend for 5hrs without telling him/her that its a dare",
@@ -3820,7 +3865,7 @@ case 'truth':
                  "Mention the incident that makes you hurt that you still remember",
                  "what achievements have you got this year?",
                  "what was your worst habit at school?",
-                 "do you love the bot creator Fantox?",
+                 "do you love the bot creator 𝕷𝕰𝕺?",
                  "have you ever thought of taking revenge from ur teacher?",
                  "do you like current prime minister of ur country",
                  "you non veg or veg",
@@ -4720,7 +4765,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
       
  const helpmenu = `Konichiwa *${pushname}* Senpai,
 
-I am *Miku Nakano*, a bot developed by *Fantox*.
+I am *𝕃𝔼𝕆-𝔹𝕆𝕋 𝟙.𝟘*, a bot developed by *𝕷𝕰𝕺*.
 
 🔰 My prefix is:  ${prefix}
 
@@ -4728,63 +4773,241 @@ Here's the list of my Commands.
 
 
  
- *━━━〈  🎆 Core 🎆  〉━━━*
 
-speak, miku, stalk, profile, help, delete, deleteall, listgc, listpc, welcome, support, repo, script 
- 
- *━━━〈  🎀 Owner 🎀  〉━━━*
+*╔* *━━━〈  🎆 Core 🎆  〉━━━* *╗*
+*║*
+*╠* Speak
+*╠* Leo-Bot
+*╠* Stalk 
+*╠* Profile 
+*╠* Help 
+*╠* Delete 
+*╠* Deleteall 
+*╠* Listgc 
+*╠* Listpc 
+*╠* Welcome 
+*╠* Support 
+*╠* Repo 
+*╠* Script  
+*╚**═**═**═**═**═**═**═**═**═**╝*
 
-self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast 
+*╔* *━━━〈  🎀 Owner 🎀  〉━━━* *╗*
+*║*
+*╠* Self 
+*╠* Public 
+*╠* Ban  
+*╠* Bangroup 
+*╠* Bye 
+*╠* Join 
+*╠* Bye 
+*╠* Block 
+*╠* Unblock 
+*╠* Broadcast  
+*╚**═**═**═**═**═**═**═**═**═**╝*
 
- *━━━〈  ⭕ Group ⭕  〉━━━*
- 
-promote, demote, revoke, add, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc, group, nsfw 
+*╔* *━━━〈  ⭕ Group ⭕  〉━━━* *╗*
+*║* 
+*╠* Promote 
+*╠* Demote 
+*╠* Revoke 
+*╠* Remove 
+*╠* Tagall 
+*╠* Hidetag 
+*╠* Groupsetting 
+*╠* Grouplink 
+*╠* Setgcpp 
+*╠* Setname 
+*╠* Setdesc  
+*╠* Group 
+*╠* NSFW 
+*╚**═**═**═**═**═**═**═**═**═**╝*
 
- *━━━〈  ➰ Anti Link ➰  〉━━━*
- 
-antilinkgc, antilinktg, antilinktt, antilinkytch, antilinkytvid, antilinkig, antilinkfb, antilinktwit, antilinkall, antiwame
+*╔* *━━━〈  ➰ Anti Link ➰  〉━━━* *╗*
+*║*  
+*╠* Antilinkgc  
+*╠* Antilinktg 
+*╠* Antilinktt 
+*╠* Antilinkytch 
+*╠* Antilinkytvid 
+*╠* Antilinkig 
+*╠* Antilinkfb 
+*╠* Antilinktwit 
+*╠* Antilinkall 
+*╠* Antiwame 
+*╚**═**═**═**═**═**═**═**═**═**═**╝*
 
- *━━━〈  🔍 Search 🔍  〉━━━*
+*╔* *━━━〈  🔍 Search 🔍  〉━━━* *╗*
+*║*
+*╠* Play 
+*╠* Ytmp3 
+*╠* Ytmp4
+*╠* Yts 
+*╠* Lyrics 
+*╠* Google 
+*╠* Gimage 
+*╠* Pinterest 
+*╠* Image 
+*╠* Weather
+*╠* Movie 
+*╠* Wallpaper 
+*╠* Searchgc 
+*╠* Happymod 
+*╠* Wikimedia 
+*╠* Ringtone 
+*╠* Anime 
+*╠* Animestory 
+*╠* Manga 
+*╠* Ringtone   
+*╚**═**═**═**═**═**═**═**═**═**╝*
 
-play, ytmp3, ytmp4, yts, lyrics, google, gimage, pinterest, image, weather, movie, wallpaper, searchgc, happymod, wikimedia, ringtone, anime, animestory, manga, ringtone  
+*╔* *━━━〈  🔰 Convert 🔰  〉━━━* *╗* 
+*║*
+*╠* Sticker 
+*╠* Toimg 
+*╠* Tovideo 
+*╠* Togif 
+*╠* Steal 
+*╠* Stickermeme 
+*╠* Emojimix 
+*╠* Tourl 
+*╠* Tomp3 
+*╠* Toaudio 
+*╚**═**═**═**═**═**═**═**═**═**╝*
 
- *━━━〈  🔰 Convert 🔰  〉━━━*
+*╔* *━━━〈  🔉 Audio 🔉  〉━━━* *╗*
+*║*
+*╠* Bass 
+*╠* Tempo 
+*╠* Blown 
+*╠* Deep 
+*╠* Earrape 
+*╠* Fast 
+*╠* Fat 
+*╠* Nightcore 
+*╠* Reverse 
+*╠* Robot 
+*╠* Slow 
+*╠* Squirrel 
+*╚**═**═**═**═**═**═**═**═**═**╝*
 
-sticker, toimg, tovideo, togif , steal, stickermeme, emojimix, tourl, tomp3, toaudio
+*╔* *━━━〈  📍 Reactions 📍  〉━━━* *╗* 
+*║*
+*╠* Bonk 
+*╠* Cry 
+*╠* Bully 
+*╠* Cuddle 
+*╠* Hug 
+*╠* kiss 
+*╠* kick 
+*╠* Pat 
+*╠* Smug 
+*╠* Yeet 
+*╠* Blush 
+*╠* Smile 
+*╠* Wave 
+*╠* Highfive 
+*╠* Handhold 
+*╠* Nom 
+*╠* Glomp 
+*╠* Bite 
+*╠* Slap 
+*╠* Kill 
+*╠* Happy 
+*╠* Wink 
+*╠* Poke 
+*╠* Dance 
+*╠* Cringe 
+*╚**═**═**═**═**═**═**═**═**═**═**╝*
 
- *━━━〈  🔉 Audio 🔉  〉━━━*
+*╔* *━━━〈  📲 Downloader 📲  〉━━━* *╗* 
+*║*
+*╠* Play 
+*╠* Ytmp3 
+*╠* Ytmp4 
+*╠* Ytvideo 
+*╠* Mediafire 
+*╠* Instagram 
+*╠* Igtv 
+*╠* Facebook 
+*╠* Fbmp3 
+*╠* Twitter 
+*╠* Twittermp3 
+*╠* Tiktok 
+*╠* Tiktokaudio 
+*╠* Tiktoknowm 
+*╠* Mediafire   
+*╚**═**═**═**═**═**═**═**═**═**═**═**╝*
 
-bass, tempo, blown, deep, earrape, fast, fat, nightcore, reverse, robot, slow, squirrel
+*╔* *━━━〈  🈴 Weeb 🈴  〉━━━* *╗*
+*║*
+*╠* Crossplay 
+*╠* Waifu 
+*╠* Loli 
+*╠* Neko 
+*╠* ppcouple 
+*╠* Feed 
+*╠* Foxgirl 
+*╠* Meow 
+*╠* Tickle 
+*╠* Wallpaper 
+*╠* Coffee 
+*╠* Animenom 
+*╠* Waifu3 
+*╠* Neko2 
+*╠* Migumin 
+*╠* Awoo 
+*╠* Animewallpaper2 
+*╠* Anime 
+*╠* Manga 
+*╚**═**═**═**═**═**═**═**═**╝*
 
- *━━━〈  📍 Reactions 📍  〉━━━*
+*╔* *━━━〈  🗂️ Informative 🗂️  〉━━━* *╗* 
+*║*
+*╠* Animequote 
+*╠* Quote 
+*╠* Covid 
+*╠* Earthquake 
+*╠* Wiki 
+*╚**═**═**═**═**═**═**═**═**═**═**═**╝*
 
-bonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe
+*╔* *━━━〈  🎗 Others 🎗  〉━━━*  *╗* 
+*║*
+*╠* Stickermeme 
+*╠* Quotes 
+*╠* Darkjoke  
+*╚**═**═**═**═**═**═**═**═**═**╝*
 
- *━━━〈  🌌 Downloader 🌌  〉━━━*
+*╔* *━━━〈  🎉 Fun 🎉  〉━━━* *╗*
+*║* 
+*╠* Reaction 
+*╠* Truth 
+*╠* Dare 
+*╠* Couple 
+*╠* Soulmate 
+*╠* Handsomecheck 
+*╠* Beautifulcheck 
+*╠* Awesomecheck 
+*╠* Greatcheck 
+*╠* Gaycheck 
+*╠* Cutecheck 
+*╠* Lesbiancheck 
+*╠* Hornycheck  
+*╠* Prettycheck 
+*╠* Lovelycheck 
+*╠* Uglycheck 
+*╠* Charactercheck 
+*╚**═**═**═**═**═**═**═**═**═**╝*
 
-play, ytmp3, ytmp4, ytvideo, mediafire, instagram, igtv, facebook, fbmp3, twitter, twittermp3, tiktok, tiktokaudio, tiktoknowm, mediafire  
-
- *━━━〈  🈴 Weeb 🈴  〉━━━*
-
-crosplay, waifu, loli, neko, ppcouple, feed, foxgirl, feed, meow, tickle, wallpaper, coffee, animenom, waifu3, neko2, feed, meow, tickle, migumin, awoo, animewallpaper2, anime, manga
-
- *━━━〈  ♨️ Informative ♨️  〉━━━*
-
-animequote, quote, covid, earthquake, wiki
-
- *━━━〈  🎗 Others 🎗  〉━━━*
-
-stickermeme, quotes, darkjoke 
-
- *━━━〈  🎐 Fun 🎐  〉━━━*
-
-reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomecheck, greatcheck, gaycheck, cutecheck, lesbiancheck, hornycheck, prettycheck, lovelycheck, uglycheck, charactercheck
-
- *━━━〈  🪁 Essentials 🪁  〉━━━*
-
-qr, say, translate, fliptext, toletter, weather
-
- *━━━〈  💥 NSFW 💥  〉━━━*
+*╔* *━━━〈  🪁 Essentials 🪁  〉━━━* *╗* 
+*║*
+*╠* Qr
+*╠* Say
+*╠* Translate 
+*╠* Fliptext 
+*╠* Toletter 
+*╠* Weather
+*╚**═**═**═**═**═**═**═**═**═**═**═**╝* 
+*╔* *━━━〈  💥 NSFW 💥  〉━━━* *╗*
 
 🍁 Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
 
@@ -4794,7 +5017,7 @@ qr, say, translate, fliptext, toletter, weather
 
 
  『  *${global.BotName}*  』
- Powered by: *Fantox*
+ Powered by: *𝕷𝕰𝕺*
 
  🔰 To use any of these commands type 
  " *${prefix}<Command name>* ".
@@ -4846,11 +5069,11 @@ break
 
 
 
-case 'miku':
+case 'Leo-Bot':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `Do you love Miku? Then we are the same.`
+const txt = `Do you love 𝕃𝔼𝕆-𝔹𝕆𝕋 𝟙.𝟘? Then we are the same.`
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
