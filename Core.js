@@ -1511,7 +1511,7 @@ replay('This Group has been *unbanned* from using me!')
 
 case 'support': case 'supportgc':
     
-    reply(`*My developer's group:* http://gg.gg/MikuSupport`)
+    reply(`*My developer's group:* https://chat.whatsapp.com/Lk5ywsCBzZR7Xs3ZZ9hOY6`)
     break
 
 case 'repo': case 'botrepo':
