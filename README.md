@@ -1,10 +1,10 @@
  https://user-images.githubusercontent.com/96835724/202911067-fbebff62-1566-4120-bd37-08311166b70b.mp4 
 
      
-<h1 align="center"> Miku Nakano (Beta)
+<h1 align="center"> 𝕃𝔼𝕆-𝔹𝕆𝕋 𝟙.𝟘 (Beta)
 </h1>
 <p align="center"> 
-  Konochiwa Senpai, I am "Miku Nakano" a WhatsApp bot made by Fantox to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  Konochiwa Senpai, I am "𝕃𝔼𝕆-𝔹𝕆𝕋 𝟙.𝟘" a WhatsApp bot made by Fantox to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 
 <p align="center">
   <a href="https://github.com/FantoX001/Miku-MD/fork">
@@ -21,7 +21,7 @@
   </a>
   
   <p align="center">
-  <a href="https://github.com/FantoX001/Miku-MD">
+  <a href="https://github.com/leoooxx/Miku-MD">
     <img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/FantoX001/Miku-MD.visitor-badge&left_text=Total%20Repo%20Visits">
     
     
@@ -33,7 +33,7 @@
       
 </br> 
    
-### ✧✧ Maintained by [Fantox](https://github.com/FantoX001) for bug fixes and more improments. More features  are coming soon. Check this main repo once in week to stay updated about latest updates.
+### ✧✧ Maintained by [𝕷𝕰𝕺](https://github.com/leoooxxx) for bug fixes and more improments. More features  are coming soon. Check this main repo once in week to stay updated about latest updates.
 </br></br>
   
   
@@ -111,7 +111,7 @@
 ✧ The main motto of this project is to provide Beginner Devs a base without any limitations 😊.
 ✧ Check "Credits" section and Support Them too.
 
--regards FantoX001
+-regards 𝕷𝕰𝕺
 ```
 
 </br>
@@ -124,7 +124,7 @@ Here's the Video Tuturial for Deploying and Hosting Miku Bot on Heroku.
 
 ## ✧✧✧ Heroku Deployment Method:
 
-#### ✧ [Fork](https://github.com/FantoX001/Miku-MD/fork) this repo.
+#### ✧ [Fork](https://github.com/leoooxx/Miku-MD/fork) this repo.
 
 #### ✧ Click this scan button below and scan the given QR within 15 seconds from your WhatsApp. 
 <a href="https://miku-qr--fantox001.repl.co/"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="90" />
@@ -158,7 +158,7 @@ heroku/nodejs
 
 ## ✧✧✧ Join My Whatsapp Group for Support
 
-<a href="https://chat.whatsapp.com/JcBzjRIxM5UHfuJbt0KrWt"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/Lk5ywsCBzZR7Xs3ZZ9hOY6"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
 ## ✧✧✧ CMD Deployment Method (Without downloading this code as .zip)
@@ -233,7 +233,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 
 ## ✧ Help Me:
-- [`Follow`](https://github.com/FantoX001/#follow) me on GitHub to make me feel motivated.
+- [`Follow`](https://github.com/leoooxx/#follow) me on GitHub to make me feel motivated.
 - Give my project a ⭐ if you liked it.
 
      
